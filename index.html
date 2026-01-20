@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Danh Sách Phim Hay</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .movie {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .movie:hover {
+            transform: scale(1.05);
+        }
+
+        .movie img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .movie-info {
+            padding: 15px;
+        }
+
+        .movie-info h3 {
+            margin: 0;
+            color: #333;
+        }
+
+        .movie-info p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🎬 Danh Sách Phim Hay Nên Xem</h1>
+    <p>Tổng hợp những bộ phim nổi bật và hấp dẫn</p>
+</header>
+
+<div class="container">
+
+    <!-- Phim 1 -->
+    <div class="movie">
+        <img src="https://i.imgur.com/8UG2G6Y.jpg" alt="Avengers">
+        <div class="movie-info">
+            <h3>Avengers: Endgame</h3>
+            <p>Thể loại: Hành động, Viễn tưởng</p>
+            <p>Cuộc chiến cuối cùng của các siêu anh hùng Marvel.</p>
+        </div>
+    </div>
+
+    <!-- Phim 2 -->
+    <div class="movie">
+        <img src="https://i.imgur.com/3fJ1P48.jpg" alt="Titanic">
+        <div class="movie-info">
+            <h3>Titanic</h3>
+            <p>Thể loại: Tình cảm, Lãng mạn</p>
+            <p>Câu chuyện tình yêu kinh điển trên con tàu định mệnh.</p>
+        </div>
+    </div>
+
+    <!-- Phim 3 -->
+    <div class="movie">
+        <img src="https://i.imgur.com/Z7AzH2c.jpg" alt="Inception">
+        <div class="movie-info">
+            <h3>Inception</h3>
+            <p>Thể loại: Khoa học viễn tưởng</p>
+            <p>Bộ phim hack não về giấc mơ trong giấc mơ.</p>
+        </div>
+    </div>
+
+    <!-- Phim 4 -->
+    <div class="movie">
+        <img src="https://i.imgur.com/kq6QbFh.jpg" alt="One Piece">
+        <div class="movie-info">
+            <h3>One Piece Film: Red</h3>
+            <p>Thể loại: Hoạt hình, Phiêu lưu</p>
+            <p>Cuộc phiêu lưu mới của băng hải tặc Mũ Rơm.</p>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 - Website Phim Hay | Thiết kế bởi bạn 😎</p>
+</footer>
+
+</body>
+</html>
